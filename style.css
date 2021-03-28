@@ -14,6 +14,8 @@ body{
 
 .animation-text{
 	position: relative;
+	white-space: nowrap;
+	margin-bottom: 0;
 	animation-duration: 7s;
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
@@ -23,6 +25,7 @@ body{
 .a1{
 	animation-name: a1;
 	margin-top: 0.7em;
+	overflow: hidden;
 }
 
 .a2{
@@ -148,4 +151,8 @@ p{
 .float-text{
 	font-size: 1em;
 	z-index:99;
+}
+
+.center{
+	text-align: center;
 }
