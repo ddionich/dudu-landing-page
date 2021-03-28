@@ -15,6 +15,7 @@ body{
 .animation-text{
 	position: relative;
 	white-space: nowrap;
+	letter-spacing: 0.25em;
 	margin-bottom: 0;
 	animation-duration: 7s;
 	animation-iteration-count: infinite;
@@ -76,7 +77,6 @@ p{
 		display: block;
 	}
 }
-
 
 .hero div{
 	margin: 1em;
