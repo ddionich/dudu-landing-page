@@ -156,3 +156,13 @@ p{
 .center{
 	text-align: center;
 }
+
+.mb-2{
+	margin-bottom: 2em;
+}
+
+.cf-sign{
+	color: black;
+	position: absolute;
+	right: 4em;
+}
